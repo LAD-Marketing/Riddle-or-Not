@@ -1,0 +1,19 @@
+{
+  "name": "0.5-riddle-or-not",
+  "version": "1.0.0",
+  "description": "Gives random riddles to users",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Gouws",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "string-similarity": "^4.0.4"
+  }
+}
