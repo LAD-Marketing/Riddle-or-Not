@@ -74,3 +74,46 @@ body, html {
     width: 80%;
     justify-self: center;
   }
+
+  @media only screen and (max-width: 768px) {
+    .banner img {
+        height: 200px; /* Make banner image smaller */
+    }
+
+    .animated-start-button {
+        padding: 8px 15px; /* Adjust button size */
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #inputAnswer {
+        width: 100%; /* Adjust input width for smaller screens */
+    }
+
+    .ceviche-one-regular {
+        font-size: large; /* Adjust font size */
+    }
+}
+
+/* Media query for devices with max-width 480px (Phones) */
+@media only screen and (max-width: 480px) {
+    .banner img {
+        height: 150px; /* Further reduce banner image size */
+    }
+
+    .animated-start-button {
+        padding: 8px 10px; /* Adjust button padding */
+        font-size: medium; /* Adjust font size for mobile */
+    }
+
+    .check-answer-button {
+        padding: 8px 12px; /* Adjust button size */
+    }
+
+    .ceviche-one-regular {
+        font-size: medium; /* Adjust text size for readability */
+    }
+}

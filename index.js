@@ -19,7 +19,6 @@ app.get("/", async (req, res) => {
         const response = await axios.get("https://riddles-api.vercel.app/random");
         currentRiddle = response.data.riddle;
         currentAnswer = response.data.answer.toLowerCase();
-        console.log(currentAnswer);
 
         res.render("index.ejs", { riddle: currentRiddle, result: "" });
     } catch (error) {
